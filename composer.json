@@ -1,13 +1,19 @@
 {
     "name": "alyatek/php-log-rotator",
-    "description": "Compresses log files in tar.gz files with regular expression for files.",
-    "require": {},
-    "license": "GNU",
+    "description": "Compresses and deletes .log files",
     "authors": [
         {
-            "name": "Cesar Correia",
-            "email": "alyatek@gmail.com"
+            "name": "Cesar",
+            "email": "cesar@cesarcorreia.pt"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "LogRotator": "src/"
+        }
+    }
 }
