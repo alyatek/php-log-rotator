@@ -1,0 +1,15 @@
+{
+    "name": "alyatek/php-log-rotator",
+    "description": "Compresses log files in tar.gz files with regular expression for files.",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Cesar Correia",
+            "email": "alyatek@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
